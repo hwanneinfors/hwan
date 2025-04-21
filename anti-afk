@@ -1,0 +1,15 @@
+-- Anti Afk made by hwanneinfors [Hwan]
+
+local VirtualUser = game:GetService('VirtualUser')
+
+game:GetService('Players').LocalPlayer.Idled:Connect(function()
+    VirtualUser:CaptureController()
+    VirtualUser:ClickButton2(Vector2.new())
+end)
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Anti Afk đã được bật!",
+    Text = "Made by Hwan",
+    Button1 = "Tắt thông báo",
+    Duration = 5
+})
