@@ -1,3 +1,1 @@
---Auto click by HwanDz
---Press P to toggle on/off ( nhấn P để bật / tắt )
-loadstring(game:httpget("https://raw.githubusercontent.com/hwanneeeeeeeee/hwan/refs/heads/main/hwan", true))()
+loadstring(game:httpget("https://raw.githubusercontent.com/hwanneeeeeeeee/hwan/refs/heads/main/lowgraphics", true))()
